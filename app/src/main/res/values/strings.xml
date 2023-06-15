@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMI_calc</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="niedowaga">Niedowaga</string>
+    <string name="normalna_waga">Normalna waga</string>
+    <string name="nadwaga">Nadwaga</string>
+    <string name="oty_o">Otyłość</string>
+    <string name="wprowadz_dane">Wprowadź dane</string>
+    <string name="kalorie_na_dzien">"Kalorie na dzień: "</string>
+</resources>
