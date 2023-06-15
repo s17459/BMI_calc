@@ -61,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Recommendations" />
+        android:text="Rekomendacje" />
 
     <Button
         android:id="@+id/buttonQuiz"
@@ -69,13 +69,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Quiz" />
+
     <Button
         android:id="@+id/buttonGraphBMI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Graph BMI"
         android:layout_marginTop="16dp"
-        />
+        android:text="Wykres BMI" />
     <TextView
         android:id="@+id/textViewResult"
         android:layout_width="wrap_content"
