@@ -4,33 +4,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/questionTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <RadioGroup
-            android:id="@+id/radioGroup"
+            android:id="@+id/textViewQuestion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:text="Question" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButtonOption1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Option 1" />
+
+            <RadioButton
+                android:id="@+id/radioButtonOption2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Option 2" />
+
+            <RadioButton
+                android:id="@+id/radioButtonOption3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Option 3" />
+
+            <RadioButton
+                android:id="@+id/radioButtonOption4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Option 4" />
+        </RadioGroup>
 
         <Button
-            android:id="@+id/submitButton"
+            android:id="@+id/buttonNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Wyślij" />
+            android:text="Next" />
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
